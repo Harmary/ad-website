@@ -1,0 +1,16 @@
+.ad {
+  &-title {
+    font-weight: 600;
+  }
+  &-image {
+    max-width: 100%;
+  }
+  &-button {
+    &-text {
+      font-weight: 400;
+    }
+    &-icon {
+      font-size: x-large;
+    }
+  }
+}

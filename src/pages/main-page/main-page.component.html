@@ -1,11 +1,9 @@
-<div class="container">
-  <h4 class="mb-4">Рекомендации для вас</h4>
+<h4 class="mb-4">Рекомендации для вас</h4>
 
-  <div class="container">
-    <div class="row flex-wrap row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 gy-4">
-      <div class="col p-0" *ngFor="let card of cards">
-        <app-ad-card [card]="card"></app-ad-card>
-      </div>
+<div class="container">
+  <div class="row flex-wrap row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 gy-4">
+    <div class="col p-0" *ngFor="let card of cards">
+      <app-ad-card [card]="card"></app-ad-card>
     </div>
   </div>
 </div>
