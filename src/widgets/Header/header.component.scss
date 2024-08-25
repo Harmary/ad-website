@@ -1,5 +1,14 @@
 .header {
+  &-top, &-login {
+    background-color: var(--bs-dark);
+  }
+
+  &-login {
+    border: var(--bs-dark);
+  }
+
   &-logo {
     font-weight: 700;
+    color: var(--bs-body-color);
   }
 }

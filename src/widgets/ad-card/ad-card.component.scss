@@ -1,3 +1,16 @@
+.ad-card {
+  &-title,
+  &-amount {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  &-amount {
+  }
+}
+
 .fixed-image {
   width: 19rem;
   height: 15rem;
